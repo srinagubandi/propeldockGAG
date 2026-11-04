@@ -1,8 +1,8 @@
 {
-  "name": "openrouter-railway-app",
+  "name": "propeldockgag",
   "version": "1.0.0",
   "type": "module",
-  "description": "Express backend connected to OpenRouter and ready for Railway deployment",
+  "description": "propeldockGAG - Express backend connected to OpenRouter and ready for Railway deployment",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
