@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/api/chat', async (req, res) => {
-  const { prompt, model = 'anthropic/claude-3.5-sonnet' } = req.body;
+  const { prompt, model = 'google/gemini-2.5-flash' } = req.body;
 
   if (!process.env.OPENROUTER_API_KEY) {
     return res.status(500).json({
