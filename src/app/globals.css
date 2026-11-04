@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand-teal: #123F49;
+  --brand-orange: #F58A2B;
+  --brand-seafoam: #A9D3C5;
+  --brand-ivory: #F8F5ED;
+  --brand-muted: #52666B;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #F8F5ED;
+  color: #123F49;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Accessible focus ring across all interactive controls */
+*:focus-visible {
+  outline: 2px solid #F58A2B;
+  outline-offset: 2px;
+}
